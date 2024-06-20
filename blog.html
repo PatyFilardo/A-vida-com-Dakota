@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Pessoal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffe6f0;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ff80ab;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            background-color: #ff4081;
+            margin: 0;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .container {
+            padding: 20px;
+        }
+        .about, .recent-posts, .contact {
+            margin-bottom: 40px;
+        }
+        h2 {
+            color: #d81b60;
+        }
+        footer {
+            background-color: #ff80ab;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .post {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Blog Pessoal</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#about">Sobre Mim</a></li>
+            <li><a href="#posts">Postagens Recentes</a></li>
+            <li><a href="#contact">Contato</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <section id="about" class="about">
+            <h2>Sobre Mim</h2>
+            <p>Olá! Sou uma apaixonada por cães e este blog é sobre o meu dia a dia com o meu novo cão. Aqui vou partilhar histórias, dicas e muito mais sobre a nossa jornada juntos.</p>
+        </section>
+        <section id="posts" class="recent-posts">
+            <h2>Postagens Recentes</h2>
+            <div class="post">
+                <h3>Primeiro Dia em Casa</h3>
+                <p>Hoje foi o primeiro dia do meu novo cão em casa e foi incrível! Ele já está a explorar todos os cantos e parece muito feliz.</p>
+            </div>
+            <div class="post">
+                <h3>Passeio no Parque</h3>
+                <p>Levamos o nosso novo amigo para um passeio no parque e ele adorou! Correu, brincou e conheceu outros cães.</p>
+            </div>
+        </section>
+        <section id="contact" class="contact">
+            <h2>Contato</h2>
+            <p>Podes encontrar-me nas redes sociais:</p>
+            <ul>
+                <li><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
+                <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+                <li><a href="mailto:email@exemplo.com">Email</a></li>
+            </ul>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Meu Blog Pessoal</p>
+    </footer>
+</body>
+</html>
